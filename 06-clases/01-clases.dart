@@ -1,20 +1,14 @@
+import 'clases/persona.dart';
+
 void main(List<String> args) {
-  // final persona = {
-  //   'nombre': 'Fernando',
-  //   'edad': 33
-  // };
 
-  // print(persona);
-}
+  final persona = new Persona(edad: 40, nombre: 'Juan calors');
+  final persona2 = new Persona.persona40('Maria');
 
-class Persona{
-  //Campos o propiedads
-  String? nombre;
-  //Get y sets
+  // persona..nombre = 'Fernando'
+  //         ..edad = 33;
+          // ..bio = 'Nacio por ahi';
+  // persona.bio = 'Cambie el valor';
 
-  //Constructores
-
-  //Metodos (funciones)
-
-
+  print(persona2);
 }
